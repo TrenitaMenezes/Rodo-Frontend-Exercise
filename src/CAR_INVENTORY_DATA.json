@@ -1,0 +1,10 @@
+[
+{"make":"Chevrolet","model":"Corvette","model_year":1972,"vin":"WBAUP735X8V996920","total_price":"$62984.80","monthly_payment":"$186.71","id":2},
+{"make":"Audi","model":"A8","model_year":2011,"vin":"19XFB2F51EE455408","total_price":"$60012.50","monthly_payment":"$431.31","id":4},
+{"make":"Porsche","model":"911","model_year":2010,"vin":"5J8TB3H55DL612936","total_price":"$51300.56","monthly_payment":"$210.38","id":5},
+{"make":"GMC","model":"Yukon XL 1500","model_year":2007,"vin":"WAUFMBFC6EN781576","total_price":"$64315.15","monthly_payment":"$351.62","id":6},
+{"make":"Mazda","model":"B-Series Plus","model_year":1994,"vin":"2C3CCABG5EH468477","total_price":"$44489.37","monthly_payment":"$288.31","id":7},
+{"make":"GMC","model":"Sierra 1500","model_year":2008,"vin":"WA1VMBFE2ED370210","total_price":"$55190.17","monthly_payment":"$386.61","id":8},
+{"make":"Ford","model":"F-Series","model_year":2004,"vin":"1FMJK1G52AE896238","total_price":"$37264.04","monthly_payment":"$243.55","id":9},
+{"make":"Porsche","model":"Boxster","model_year":2007,"vin":"1G6DC8EY6B0135267","total_price":"$45747.97","monthly_payment":"$435.26","id":10}
+]

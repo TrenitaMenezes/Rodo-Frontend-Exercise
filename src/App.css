@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .App-logo {
@@ -7,6 +8,19 @@
   pointer-events: none;
 }
 
+.searchBar{
+    background-color: #007bad;
+    margin-top: 5em;
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+}
+
+.searchInput{
+  padding: 10px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -28,11 +42,33 @@
   color: #61dafb;
 }
 
+.errorMessageStyles{
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: 700;
+    margin: auto;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 500px){
+  .searchBar{
+    margin-top: 3em;
+  }
+  .hideMobileView{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width:736px){
+   .searchBar{
+    margin-top: 7em;
   }
 }

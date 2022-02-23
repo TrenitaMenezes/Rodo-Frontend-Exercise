@@ -1,0 +1,94 @@
+ul{
+	list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* padding: 2em 0; */
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  margin: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.topPanel{
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftPanel, .rightPanel{
+  margin: 0 1em;
+  padding: 10px;
+}
+
+.blueRectangle{
+  height: 40px;
+  width: 80px;
+  background-color: #949594;
+  display: inline-block;
+}
+
+.blackRectangle{
+  height: 40px;
+  width: 80px;
+  background-color: #000000;
+  display: inline-block;
+}
+
+.addDisplayInlineBlock{
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    top: -11px;
+}
+
+hr{
+  border: 1px solid #f3f3ee;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.imgStyles{
+  height: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.bottomPanel{
+  display:flex;
+  flex-direction:row; 
+  justify-content:space-around;
+  padding: 10px;
+  line-height: 2em;
+  color: #969696;
+  margin: -16px -10px 0 10px;
+  background-color: #e8eae0;
+}
+/* 
+.addLineHeight{
+  line-height: 5px;
+} */
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+/*   .addLineHeight{
+    line-height: 0px;
+  } */
+}
